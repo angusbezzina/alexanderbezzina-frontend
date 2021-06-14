@@ -1,0 +1,15 @@
+# Environmental variables
+.env
+
+# VS Code settings
+.vscode
+
+# NextJS output
+.next
+
+# Dependencies
+node_modules
+
+# Misc
+.DS_Store
+TODO.md
