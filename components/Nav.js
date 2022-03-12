@@ -43,15 +43,14 @@ export default function Nav({ active, isHome }) {
         <Link href="#contact" replace>
           Contact
         </Link>
-          <Link href={user ? '/products' : '/signin'} replace>
-            <a>
-              <span className="storeDesktop">Store</span>
-              <span className="storeMobile">
-                <FontAwesomeIcon icon={faStore} />
-              </span>
-            </a>
-          </Link>
-
+        {/* <Link href={user ? "/products" : "/signin"} replace>
+          <a>
+            <span className="storeDesktop">Store</span>
+            <span className="storeMobile">
+              <FontAwesomeIcon icon={faStore} />
+            </span>
+          </a>
+        </Link> */}
       </NavStyles>
     );
   }

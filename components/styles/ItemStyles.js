@@ -13,6 +13,7 @@ const ItemStyles = styled.div`
     height: 400px;
     object-fit: cover;
   }
+
   p {
     line-height: 2;
     font-weight: 300;
