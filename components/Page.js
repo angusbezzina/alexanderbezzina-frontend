@@ -2,6 +2,8 @@ import React from 'react';
 import { useRouter } from 'next/router';
 import debounce from 'lodash.debounce';
 import styled, { createGlobalStyle } from 'styled-components';
+
+import Meta from './Meta';
 import Header from './Header';
 import { ModalProvider } from './Modal';
 
@@ -98,6 +100,7 @@ export default function Page({ children }) {
     <div>
       <ModalProvider>
         <GlobalStyles />
+        <Meta />
         <Header active={headerActive} page={pathname} />
         <InnerStyles>{children}</InnerStyles>
       </ModalProvider>
