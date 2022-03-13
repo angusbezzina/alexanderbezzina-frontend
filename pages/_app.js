@@ -16,7 +16,7 @@ Router.events.on("routeChangeStart", () => NProgress.start());
 Router.events.on("routeChangeComplete", () => NProgress.done());
 Router.events.on("routeChangeError", () => NProgress.done());
 
-const GTM_MANAGER = process.env.NEXT_PUBLIC_GTM_MANAGER ?? "";
+const GTM_MANAGER = process.env.NEXT_PUBLIC_GTM_MANAGER;
 
 function MyApp({ Component, pageProps, apollo }) {
   React.useEffect(() => {

@@ -200,12 +200,6 @@ export default function HomePage() {
           </ResumeSection>
           <ResumeSection id="photography">
             <SubtitleStyles>Photography</SubtitleStyles>
-            <p>
-              Vulputate ultrices metus primis eleifend suspendisse mollis magna
-              praesent, ullamcorper lobortis scelerisque torquent porta cum
-              etiam magnis integer, nunc aliquam taciti posuere leo facilisis
-              potenti.
-            </p>
             <MasonryGallery />
           </ResumeSection>
           <ResumeSection background="navy" id="contact">
