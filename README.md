@@ -1,4 +1,4 @@
-# AlexanderBezzina.com (Frontend)
+# AlexanderBezzina.com
 
 ## Description
 
